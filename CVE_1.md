@@ -31,10 +31,10 @@ sqlmap -u "http://Target IP:9090/security/addUser.jsp?groupId=1" --risk=3 --leve
 1. **Case 1**: `http://125.91.119.208:9090`
     - sqlmap confirms the vulnerability, user is `sa`![](https://cdn.nlark.com/yuque/0/2025/png/38476061/1740238572202-99e329b3-bd19-4c56-b6c2-a44dae13ca8b.png)
     - Asset Proof ![](https://cdn.nlark.com/yuque/0/2025/png/38476061/1740238669827-795088ed-7453-46a7-9fdf-31a4add49046.png)
-2. **Case 2**: `http://oa.avit.com.cn:9090`
+2. **Case 2**: `http://218.22.206.38:9090`
     - sqlmap confirms the vulnerability, user is `sa`![](https://cdn.nlark.com/yuque/0/2025/png/38476061/1740238689161-33c95786-5c38-4baa-91b3-d7805bccdacd.png)
     - Asset Proof ![](https://cdn.nlark.com/yuque/0/2025/png/38476061/1740238702094-12c13534-69b6-4cbd-92a7-4b7dca41276c.png)
-3. **Case 3**: `http://218.22.206.38:9090`
+3. **Case 3**: `http://oa.avit.com.cn:9090`
     - sqlmap confirms the vulnerability, user is `sa`![](https://cdn.nlark.com/yuque/0/2025/png/38476061/1740238712915-9934175f-3444-4b91-87b3-5f794b9f1a0f.png)
     - Asset Proof ![](https://cdn.nlark.com/yuque/0/2025/png/38476061/1740238723703-c5645b32-5089-4b1b-b344-dd9b3451e6d8.png)
 
